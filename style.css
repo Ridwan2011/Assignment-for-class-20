@@ -1,0 +1,138 @@
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.header-image{
+    width: 45px;
+    margin-left: 299px;
+}
+
+
+.header-image img{
+    max-width: 100%;
+}
+
+
+.header-section{
+    width: 1470px;
+    position: relative;
+    right: 121px;
+    background-color: #e3f2fd;
+}
+
+.header-button{
+    position: relative;
+    right: 142px;
+}
+
+.home{padding-top: 40px;padding-bottom: 10px;}
+
+.home-ol-1{
+    background: #e9ecef;
+    width: 505px;
+    height: 39px;
+    padding-top: 7px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.home-ol-2{
+    background: #e9ecef;
+    width: 505px;
+    height: 39px;
+    padding-top: 5px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.home .row{
+    position: relative;
+    left: 237px;
+}
+
+.blog img{
+    height: 494px !important;
+}
+
+.alert-sec{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.progress{
+    margin-bottom: 10px;
+}
+
+
+.accordion-item a{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.accordion-item a:hover{
+    text-decoration: underline;
+}
+
+.accordion-item{
+    font-size: 15px;
+}
+
+/* .accordion-button{
+    height: 43px;
+} */
+
+.level{
+    margin-bottom: 50px;
+}
+
+.pop button{
+    position: relative;
+    float: right;
+    margin-left: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.pop{
+    margin-bottom: 100px;
+}
+
+.n-a{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.dropdown-2{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.pagination{
+    position: relative;
+    left: 285px;
+}
+
+footer{
+background: #17a2b8;
+color: #fff;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 1px;
+}
+
+
+.accordion-button:not(.collapsed)::after {
+    display: none;
+}
+
+.accordion-button::after {
+    display: none;
+}
